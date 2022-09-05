@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), #04AA6D);
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style: none;
+	margin-right: 3vw;
+}
+nav li{
+	color: #fff;
+	padding: 10px;
+	margin: 0 3px;
+}
+img{
+	width: 28vw;
+	padding: 0 5vw;
+	margin-right: 5vw;
+}
+.main-heading{
+	padding: 5vw;
+	margin-left: 5vw;
+}
+.main-heading h1 , .main-heading h3{
+	font-weight: bold;
+}
+.main-heading h1{
+	font-size: 5vw;
+}
+.main-heading h3{
+	text-align: center;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5vw;
+	margin:  0 5vw;
+	margin-top: 3vw ;
+}
+.box{
+	padding: 5vw;
+	background-color:#EFEDE5 ;
+	border-radius: 10px;
+}
+.image img{
+	width: 30vw;
+}
+.box h2{
+	padding: 0.5vw;
+	color: #04AA6D;
+}
+.box p{
+	padding: 0.5vw;
+}
+.line{
+	display: flex;
+	justify-content: center;
+}
+.stroke{
+	width: 80vw;
+	border:  2px solid #04AA6D;
+	border-radius: 50px;
+	background-color: #04AA6D;
+}
+.outer-desc{
+	display: flex;
+	justify-content: center;
+}
+.desc{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 50vw;
+}
+.serving h2 , .serving h4{
+	color:#04AA6D;
+	text-align: center;
+}
+.cal h2 , .cal h4{
+	color: #04AA6D;
+	text-align: center;
+}
+.serving , .cal{
+    margin-top: 0.5vw;
+}
+
+
+footer{
+	width: 100%;
+	background-color: black;
+}
+footer p{
+	color: #fff;
+	padding: 3vw;
+	text-align: center;
+}
+
+.ingredients h1{
+	color: #04AA6D;
+}
+.directions h1{
+	color: #04AA6D;
+}
+.directions ol , .ingredients ul{
+    color: #04AA6D;
+    margin-top: 0.5vw;
+}
+.ingredients li , .directions li{
+	color: black;
+}
+.directions .box{
+	width: 30vw;
+}
+.ingredients h1 , .directions h1{
+	text-align: center;
+}
+.ingredients ul{
+	list-style: none;
+}
+.ingredients ul li::before{
+	content: "\2022";
+	color: #04AA6D;
+	font-weight: bold;
+	width: 10px;
+	margin: 5px;
+}
+.nutrition{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 5vw;
+}
+.nutrition label{
+	color: #04AA6D;
+	font-size: 3rem;
+	padding-bottom: 0.5em;
+}
+.nutrition table{
+	width: 50vw;
+}
+.nutrition table td {
+	border:  1px solid #EFEDE5;
+	border-collapse: collapse ;
+	padding: 1em;
+	border-radius: 10px;
+}
+.nutrition table tr:hover{
+	background-color: #EFEDE5;
+}
+@media only screen and (max-width: 600px) {
+  .main-container{
+  	display: flex;
+  	flex-direction: column;
+  }
+  .directions .box{
+  	width: 80vw;
+  	margin-top: 5em;
+  }
+  .main-container .image img{
+  	width: 50vw;
+  	margin-left: 10vw;
+  }
+  .nutrition table{
+  	width: 70vw;
+  }
+}
