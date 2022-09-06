@@ -178,4 +178,9 @@ footer p{
   .nutrition table{
   	width: 70vw;
   }
+  .nutrition table tr{
+        display: flex;
+  	flex-direction: column;
+  	margin: 1em 0;
+  }
 }
