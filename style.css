@@ -183,4 +183,10 @@ footer p{
   	flex-direction: column;
   	margin: 1em 0;
   }
+  .desc{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	width: 80%;
+  }
 }
